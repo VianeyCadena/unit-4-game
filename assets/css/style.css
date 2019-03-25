@@ -1,0 +1,38 @@
+body {
+    background-image: url(../images/dark-grey-terrazzo.png)
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+.crystals{
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.crystal{
+    cursor: pointer;
+	/* border:1px solid green; */
+	height:156px;
+	width: 200px;
+	/* border-radius: 4px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	transition: box-shadow 1s, transform 2s; */
+}
+
+#score-Goal {
+    margin-left: 30%;
+    color: white;
+    width: 350px;
+    text-align: center;
+    border: 2px solid green;
+    background-color: rgb(16, 48, 16);
+    padding: 10px;
+}
+
+#total-score, #win, #lose {
+    color: white;
+}
