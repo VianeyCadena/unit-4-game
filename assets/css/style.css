@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/dark-grey-terrazzo.png)
+    background-image: url(../images/darkness.png)
 }
 
 .container {
@@ -11,28 +11,35 @@ body {
 	justify-content: space-around;
     align-items: center;
     padding: 20px;
+    margin-left: 10%;
+  
 }
 
 .crystal{
     cursor: pointer;
-	/* border:1px solid green; */
 	height:156px;
 	width: 200px;
-	/* border-radius: 4px;
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-	transition: box-shadow 1s, transform 2s; */
+
 }
 
 #score-Goal {
-    margin-left: 30%;
+    margin-left: 50%;
     color: white;
     width: 350px;
     text-align: center;
-    border: 2px solid green;
-    background-color: rgb(16, 48, 16);
+    border: 2px solid rgb(255, 0, 242);
+    background-color: rgb(48, 16, 44);
     padding: 10px;
+}
+
+#result { 
+    color: white;
 }
 
 #total-score, #win, #lose {
     color: white;
+}
+
+p {
+    line-height: .7;
 }

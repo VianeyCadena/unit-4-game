@@ -48,6 +48,8 @@ $(document).on('click', ".crystal", function () {
         lose++;
 
         $("#lose").html("You lost: " + lose);
+        $("#result").html("You lost! :(");
+        $("#result").css("background-color", "red");
 
         totalScore = 0;
 
@@ -57,6 +59,8 @@ $(document).on('click', ".crystal", function () {
     else if (totalScore === scoreGoals) {
         win++
         $("#win").html("You win: " + win);
+        $("#result").html("You win! :)");
+        $("#result").css("background-color", "green")
         totalScore = 0;
         resetAndStart();
     }
